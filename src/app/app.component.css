@@ -1,0 +1,33 @@
+h1 {
+    z-index: 1;
+    font-size: 5em;
+    color: rgb(0, 0, 0);
+    position:absolute;
+    top: 0cm;
+    margin-bottom:-100cm;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  h2 {
+    z-index: 2;
+    font-size: 1.25em;
+    padding: 20px 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  h3
+  {
+    z-index: 2;
+    padding: 20px 30px;
+    margin-bottom: 0;
+    position:absolute;
+    top: 11.5cm;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 10px;
+  }

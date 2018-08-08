@@ -1,0 +1,20 @@
+div
+{
+  position:absolute;
+  top: -1.5cm;
+  left:26cm;
+  font-size: 3cm;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1
+{
+  border-radius: 30px;
+  background-color:rgba(212, 237, 247, 0.644);
+  padding: 20px 60px;
+  border-style:double;
+  border-width:12px;
+  border-color:rgb(78, 108, 148);
+
+}

@@ -1,0 +1,36 @@
+div
+{
+  /* display: inline-block; */
+  vertical-align: middle ;
+  position: relative;
+  top: -40px;
+  left: 70px;
+}
+
+h1
+{
+  font-size: 4.5cm;
+  padding: 20px 40px;
+  display: inline-block;
+  border-radius: 65px;
+  background-color:rgb(209, 224, 253);
+}
+
+h2
+{
+  padding: 20px 40px;
+  font-size: 2.3cm;
+}
+
+h3
+{
+  border-top-style:dashed;
+  border-color: rgb(146, 139, 139);
+  display: inline-block;
+  font-size: 3cm;
+  padding: 30px 110px 0px 90px;
+  position: relative;
+  top: -245px;
+  left: 100px;
+  bottom: 10px;
+}
