@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CounterComponent } from './counter/counter.component';
 import { RatingComponent } from './rating/rating.component';
 import { InputpageComponent } from './inputpage/inputpage.component';
+import { InputDbService } from './inputpage/input-db.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { InputpageComponent } from './inputpage/inputpage.component';
     AppRoutingModule,
     HttpClientModule,
     // HttpClientInMemoryWebApiModule.forRoot(
-    // InMemoryDataService, { dataEncapsulation: false }
+    //   InputDbService, { dataEncapsulation: false }
     // )
   ],
   providers: [],
