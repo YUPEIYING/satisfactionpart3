@@ -9,7 +9,7 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { HttpClientModule } from '@angular/common/http';
 import { CounterComponent } from './counter/counter.component';
 import { RatingComponent } from './rating/rating.component';
-import { InMemoryDataService } from './in-memory-data.service';
+import { InputpageComponent } from './inputpage/inputpage.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { InMemoryDataService } from './in-memory-data.service';
     ExtentComponent,
     MainComponent,
     CounterComponent,
-    RatingComponent
+    RatingComponent,
+    InputpageComponent
   ],
   imports: [
     BrowserModule,

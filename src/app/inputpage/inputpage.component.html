@@ -1,0 +1,24 @@
+<div >
+    <h4>NO:
+      <input #NOBox/>
+    </h4>
+  </div>
+
+<div>
+  <h4>ID:
+    <input #IDBox/>
+    </h4>
+</div>
+
+<p>{{ Name }}</p>
+
+<nav>
+  <a routerLink="/main">
+    <button type="button" (click)="input(NOBox.value,IDBox.value);"> confirm </button>
+  </a>
+</nav>
+
+
+
+
+
