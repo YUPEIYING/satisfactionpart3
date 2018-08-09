@@ -10,15 +10,18 @@ import { catchError, map, tap } from 'rxjs/operators';
 export class InputService {
 
   private counterstaffUrl = 'api/counterstaff';  // URL to web api
+  empno: any;
 
   constructor(private http: HttpClient) { }
 
-  getCounterstaff(id: number, no: string): Observable<Input> {
+  getCounterstaff(no: number, id: string): Observable<Input> {
     const urlid = `${this.counterstaffUrl}/${id}`;
     const urlno = `${this.counterstaffUrl}/${no}`;
     const Name = `${this.counterstaffUrl}/${name}`;
     // id = id - 1;
-    console.log(urlid, urlno, Name);
+    this.empno = no;
+    console.log(urlno, urlid, Name);
+    console.log(this.empno);
     return this.http.get<Input[]>(Name)
     .pipe(
       map(counterstaff => counterstaff[id]), // returns a {0|1} element array
@@ -34,5 +37,4 @@ export class InputService {
       return of(result as T);
     };
   }
-
 }

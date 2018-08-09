@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ExtentService } from '../extent.service';
+import { InputService } from '../inputpage/input.service';
 
 @Component({
   selector: 'app-main',
@@ -14,22 +15,25 @@ export class MainComponent implements OnInit {
   number2 = '不滿意';
   number1 = '非常不滿意';
   empNO: string;
-  inputno = 'A12345';
   degree: number;
 
-  constructor(private extendSvc: ExtentService) {}
+  constructor(private extendSvc: ExtentService, private input: InputService) {}
 
   ngOnInit() {
 
+  }
+
+  empno() {
+    this.empNO = this.input.empno;
   }
 
   onClickChange() {
     console.log(this.empNO, this.degree);
     // this.extendSvc.addsatisfydegree(this);
     this.extendSvc.addsatisfydegree(this.empNO, this.degree)
-  .subscribe(
+    .subscribe(
     (customersatisfaction) => {
       console.log(customersatisfaction);
-  });
+    });
   }
 }
