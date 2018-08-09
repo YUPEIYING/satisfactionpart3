@@ -1,22 +1,25 @@
-<div >
-  <h1>NO:
-    <input #NOBox/>
-  </h1>
+<div style="text-align:center; position:absolute; top: 16cm; left: 5cm; right: 5cm;">
+  <div>
+    <h1>NO:
+      <input #NOBox/>
+    </h1>
+  </div>
+
+  <div>
+    <h1>I D:
+      <input #IDBox/>
+    </h1>
+  </div>
+
+  <p>{{ Name }}</p>
+
+  <nav>
+    <a routerLink="/main">
+      <button style= "width:6cm; height: 1cm; font-size:20px"  type="button" (click)="input(NOBox.value,IDBox.value);"> confirm </button>
+    </a>
+  </nav>
 </div>
 
-<div>
-  <h1>I D:
-    <input #IDBox/>
-  </h1>
-</div>
-
-<p>{{ Name }}</p>
-
-<nav>
-  <a routerLink="/main">
-    <button style= "width:6cm; height: 1cm; font-size:20px"  type="button" (click)="input(NOBox.value,IDBox.value);"> confirm </button>
-  </a>
-</nav>
 
 
 
