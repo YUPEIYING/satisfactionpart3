@@ -15,17 +15,17 @@ export class InputService {
   constructor(private http: HttpClient) { }
 
   getCounterstaff(no: number, id: string): Observable<Input> {
-    const urlid = `${this.counterstaffUrl}/${id}`;
-    const urlno = `${this.counterstaffUrl}/${no}`;
+    // const urlid = `${this.counterstaffUrl}/${id}`;
+    // const urlno = `${this.counterstaffUrl}/${no}`;
     const Name = `${this.counterstaffUrl}/${name}`;
     // id = id - 1;
     this.empno = no;
-    console.log(urlno, urlid, Name);
-    console.log(this.empno);
+    // console.log(urlno, urlid, );
+    console.log(Name, this.empno);
     return this.http.get<Input[]>(Name)
     .pipe(
-      map(counterstaff => counterstaff[id]), // returns a {0|1} element array
-      catchError(this.handleError<Input>(`getCounterstaff id=${id}`))
+      map(counterstaff => counterstaff[no]), // returns a {0|1} element array
+      catchError(this.handleError<Input>(`getCounterstaff id=${no}`))
     );
   }
 

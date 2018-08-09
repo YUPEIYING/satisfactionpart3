@@ -8,16 +8,16 @@ export class InputDbService implements InMemoryDbService {
   createDb() {
     const counterstaff = [
       { no: null, id: null, name: ''},
-      { no: 'A1', id: 1, name: '陳OO' },
-      { no: 'B2', id: 2, name: '林OO' },
-      { no: 'C3', id: 3, name: '沈OO' },
-      { no: 'D4', id: 4, name: '張OO' },
-      { no: 'E5', id: 5, name: '呂OO' },
-      { no: 'F6',  id: 6, name: '吳OO' },
-      { no: 'G7', id: 7, name: '廖OO' },
-      { no: 'H8', id: 8, name: '黃OO' },
-      { no: 'I9', id: 9, name: '謝OO' },
-      { no: 'J10', id: 10, name: '周OO' }
+      { no: 1, id: 'A1', name: '陳OO' },
+      { no: 2, id: 'B2', name: '林OO' },
+      { no: 3, id: 'C3', name: '沈OO' },
+      { no: 4, id: 'D4', name: '張OO' },
+      { no: 5, id: 'E5', name: '呂OO' },
+      { no: 6, id: 'F6', name: '吳OO' },
+      { no: 7, id: 'G7', name: '廖OO' },
+      { no: 8, id: 'H8', name: '黃OO' },
+      { no: 9, id: 'I9', name: '謝OO' },
+      { no: 10, id: 'K10', name: '周OO' }
     ];
     return {counterstaff};
   }

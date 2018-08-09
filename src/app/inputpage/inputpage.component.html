@@ -1,20 +1,20 @@
 <div >
-    <h4>NO:
-      <input #NOBox/>
-    </h4>
-  </div>
+  <h1>NO:
+    <input #NOBox/>
+  </h1>
+</div>
 
 <div>
-  <h4>ID:
+  <h1>I D:
     <input #IDBox/>
-    </h4>
+  </h1>
 </div>
 
 <p>{{ Name }}</p>
 
 <nav>
   <a routerLink="/main">
-    <button type="button" (click)="input(NOBox.value,IDBox.value);"> confirm </button>
+    <button style= "width:6cm; height: 1cm; font-size:20px"  type="button" (click)="input(NOBox.value,IDBox.value);"> confirm </button>
   </a>
 </nav>
 
