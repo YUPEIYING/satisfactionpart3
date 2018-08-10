@@ -39,7 +39,7 @@ export class ExtentService {
   // }
 
     public addsatisfydegree (empno: string , degree: number): Observable<MainComponent> {
-      const satisfactionUrl = 'https://postman-echo.com/post';
+      const satisfactionUrl = 'http://127.0.0.1:3000/rankAdd';
       const body = JSON.stringify({
         'empNo': empno,
         'degree': degree
