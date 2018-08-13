@@ -40,15 +40,19 @@ export class ExtentService {
 
     public addsatisfydegree (empno: string , degree: number): Observable<MainComponent> {
       const satisfactionUrl = 'http://127.0.0.1:3000/rankAdd';
-      const body = JSON.stringify({
-        'empNo': empno,
-        'degree': degree
-      });
+      const degreeString = degree + ''; // number變成string
+      // const body = JSON.stringify({
+      //   'empNo': '709152',
+      //   'degree': degreeString
+      // });
 
       this.DN = degree;
       this.ShowwordF();
 
-      return this.http.post<MainComponent>(satisfactionUrl, body)
+      return this.http.post<MainComponent>(satisfactionUrl, {
+        'empNo': empno,
+        'degree': degreeString
+      })
         .pipe(
           catchError(undefined)
         );
