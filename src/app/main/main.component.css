@@ -1,12 +1,16 @@
 div
 {
-   z-index: 3;
+   /* z-index: 3; */
+   position: relative;
+   bottom: -26em;
+   left: 0.5rem;
+   text-align:center
 }
 
 h3
 {
   font-size: 2.5em;
-  padding: 20px 30px;
+  padding: 1rem 0.5rem;
   color: rgb(0, 0, 0);
   display: inline-block;
 }
