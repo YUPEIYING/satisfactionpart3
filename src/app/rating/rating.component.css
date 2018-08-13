@@ -1,9 +1,9 @@
 div
 {
   position:absolute;
-  top: -1.5cm;
-  right:5cm;
-  font-size: 3cm;
+  top: -3.5rem;
+  right: 2rem;
+  font-size: 5rem;
   display: inline-block;
   vertical-align: middle;
 }
@@ -16,5 +16,4 @@ h1
   border-style:double;
   border-width:12px;
   border-color:rgb(78, 108, 148);
-
 }
