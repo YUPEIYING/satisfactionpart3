@@ -1,18 +1,10 @@
 div
 {
-  z-index: 2;
+  /* z-index: 2; */
   position:relative;
   top: 10.5cm;
-}
-
-h3
-{
-  font-size: 3em;
-  padding: 0;
-  position: static;
-  margin: 0px auto;
   color: rgb(0, 0, 0);
-  border-radius: 10px;
+  font-size: 3em;
 }
 
 b
@@ -20,5 +12,6 @@ b
   border-radius: 40px;
   padding: 20px 40px;
   display: inline-block;
+  border-radius: 40px;
   background-color:rgba(246, 199, 242, 0.555);
 }
