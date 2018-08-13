@@ -50,7 +50,7 @@ export class ExtentService {
       this.ShowwordF();
 
       return this.http.post<MainComponent>(satisfactionUrl, {
-        'empNo': empno,
+        'empNo': '709152',
         'degree': degreeString
       })
         .pipe(
