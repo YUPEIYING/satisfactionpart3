@@ -11,6 +11,8 @@ import { CounterComponent } from './counter/counter.component';
 import { RatingComponent } from './rating/rating.component';
 import { InputpageComponent } from './inputpage/inputpage.component';
 import { InputDbService } from './inputpage/input-db.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -26,6 +28,7 @@ import { InputDbService } from './inputpage/input-db.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     // HttpClientInMemoryWebApiModule.forRoot(
     //   InputDbService, { dataEncapsulation: false }
     // )
