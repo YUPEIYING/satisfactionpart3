@@ -1,14 +1,14 @@
 div
 {
    position: relative;
-   top: 50vh;
+   top: 55vh;
    /* left: 0.5vw; */
    text-align:center
 }
 
 h3
 {
-  padding: 0vh 2vw;
+  padding: 0vh 1.5vw;
   color: rgb(0, 0, 0);
   display: inline-block;
 }
