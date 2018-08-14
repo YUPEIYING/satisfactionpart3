@@ -12,6 +12,7 @@ import { RatingComponent } from './rating/rating.component';
 import { InputpageComponent } from './inputpage/inputpage.component';
 import { InputDbService } from './inputpage/input-db.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
