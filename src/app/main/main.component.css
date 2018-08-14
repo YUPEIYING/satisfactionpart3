@@ -8,8 +8,17 @@ div
 
 h3
 {
-  font-size: 2vw;
-  padding: 1vh 1.5vw;
+  padding: 0vh 2vw;
   color: rgb(0, 0, 0);
   display: inline-block;
+}
+
+p
+{
+  font-size: 2vw;
+}
+
+nav
+{
+  width: 15vw;
 }
