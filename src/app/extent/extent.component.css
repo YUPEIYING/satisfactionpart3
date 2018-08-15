@@ -1,7 +1,7 @@
 div
 {
   position:relative;
-  top: 49vh;
+  top: 46vh;
   color: rgb(0, 0, 0);
   font-size: 2.5vw;
 }
@@ -9,7 +9,7 @@ div
 b
 {
   border-radius: 40px;
-  padding: 0.5vh 4vw;
+  padding: 2vh 4vw;
   display: inline-block;
   background-color:rgba(246, 199, 242, 0.555);
 }
