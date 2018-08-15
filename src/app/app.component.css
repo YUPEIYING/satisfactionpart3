@@ -1,3 +1,10 @@
+div
+{
+  position: relative;
+  top: -3vh;
+  text-align:center
+}
+
 h1 {
     z-index: 1;
     font-size: 5em;

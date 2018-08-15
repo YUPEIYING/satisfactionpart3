@@ -10,10 +10,10 @@ div
 
 h1
 {
-  border-radius: 30px;
+  border-radius: 3.5vw;
   background-color:rgba(212, 237, 247, 0.644);
   padding: 4vh 4vw;
   border-style:double;
-  border-width:12px;
+  border-width:1.1vw;
   border-color:rgb(78, 108, 148);
 }
