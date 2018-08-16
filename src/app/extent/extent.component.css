@@ -1,15 +1,30 @@
 div
 {
-  position:relative;
-  top: 46vh;
+  position: absolute;
+  top: 32vw;
+  right: 8%;
   color: rgb(0, 0, 0);
-  font-size: 2.5vw;
+  font-size: 2vw;
+  display: inline-block;
 }
+
+h1
+{
+  white-space: nowrap;
+}
+
 
 b
 {
-  border-radius: 40px;
-  padding: 2vh 4vw;
+  /* border-radius: 40px; */
+  /* padding: 2vh 4vw; */
   display: inline-block;
-  background-color:rgba(246, 199, 242, 0.555);
+  /* background-color:rgba(246, 199, 242, 0.555); */
+}
+
+p
+{
+  line-height: 50%;
+  color: #FF563B;
+  font-weight:900;
 }
