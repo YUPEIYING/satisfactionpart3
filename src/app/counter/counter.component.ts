@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CounterComponent implements OnInit {
 
-  counternumber = '1';
+  counternumber = '12';
   person = '王大華';
 
   constructor() { }

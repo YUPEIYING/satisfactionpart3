@@ -1,25 +1,40 @@
 div
 {
-  /* display: inline-block; */
-  vertical-align: middle ;
-  position: relative;
-  top: 6vh;
-  left: 5vw;
+  position:absolute;
+  top: -4vh;
+  right: 98vw;
+  font-size: 4.5vw;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 h1
 {
-  font-size: 6vw;
-  display: inline-block;
-  border-radius: 2vw;
-  background-color:rgb(209, 224, 253);
-  padding: 1vw 2vw;
+  padding: 4vh 4vw;
   position: absolute;
-  top: -2.9vw;
-  left: 5vw;
+  top: -3.3vw;
+
+  /* border-radius: 3.5vw;
+  background-color:rgba(212, 237, 247, 0.644); */
+  /* border-style:double;
+  border-width:1.1vw;
+  border-color:rgb(78, 108, 148); */
 }
 
 h2
+{
+  display: inline-block;
+  white-space: nowrap;
+  letter-spacing: 1.5vw;
+  padding: 4vh 4vw;
+  position: absolute;
+  top: 6.5vw;
+  left: 2.5vw;
+  font-size: 9vw;
+}
+
+
+/* h2
 {
   font-size: 5vw;
   padding: 2vw 2.5vw;
@@ -27,16 +42,16 @@ h2
   position: absolute;
   top: -6.5vw;
   left: 12.5vw;
-}
+} */
 
-h3
+/* h3
 {
-  font-size: 6vw;
+  font-size: 7.5vw;
   padding: 1.5vh 6.5vw 0vh 6.5vw;
   display: inline-block;
   border-top-style:dashed;
   border-color: rgb(146, 139, 139);
   position: absolute;
-  top: 6vw;
-  left: 4vw;
-}
+  top: 9vh;
+  left: 7.3vw;
+} */
