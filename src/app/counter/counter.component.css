@@ -13,6 +13,7 @@ h1
   padding: 4vh 4vw;
   position: absolute;
   top: -3.3vw;
+  color:#2C4356;
 
   /* border-radius: 3.5vw;
   background-color:rgba(212, 237, 247, 0.644); */
@@ -31,6 +32,8 @@ h2
   top: 6.5vw;
   left: 2.5vw;
   font-size: 9vw;
+  font-weight:900;
+  color: white;
 }
 
 
