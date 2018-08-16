@@ -1,8 +1,8 @@
 div
 {
-   position: relative;
-   top: 49vh;
-   /* left: 0.5vw; */
+   position: absolute;
+   top: 31.5vw;
+   left: 6vw;
    text-align:center
 }
 
@@ -11,6 +11,7 @@ h3
   padding: 0vh 1.5vw;
   color: rgb(0, 0, 0);
   display: inline-block;
+  line-height: 1vw;
 }
 
 nav
@@ -21,6 +22,6 @@ nav
 p
 {
   font-size: 2.5vw;
-  line-height: 2vh;
+  line-height: 1vw;
 }
 
