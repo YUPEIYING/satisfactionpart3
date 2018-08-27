@@ -11,7 +11,7 @@ body{ margin:0vw; padding:0vw;}
   height: 100vh;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-image: url('http://10.101.2.9/%E6%BB%BF%E6%84%8F%E5%BA%A6%E8%AA%BF%E6%9F%A5%E4%BB%8B%E9%9D%A2-%E7%89%88%E9%9D%A2.png');
+  background-image: url('../assets/picture/background.png');
 }
 
 
